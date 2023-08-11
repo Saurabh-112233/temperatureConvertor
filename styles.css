@@ -58,3 +58,44 @@ body{
     border-radius: 5px;
     text-align: center
 }
+@media only screen and (max-width: 768px) {
+      .header{
+   color: black;
+   text-align: center;
+   width: 60%;
+   font-size: 1.5rem;
+   font-weight: 700;
+}
+.container-row {
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(0, 56, 0);
+    border-radius: 5px;
+    padding: 30px 10px;
+    margin-top: 2em;
+}
+
+.col {
+   
+    flex-basis: 32%;
+    text-align: center;
+}
+
+.col label {
+    font-size: 10px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    color: #fff;
+}
+
+.col input {
+    width: 110px;
+    height: 24px;
+    background: white;
+    border-radius: 2.5px;
+    text-align: center
+}
+  }
+}
